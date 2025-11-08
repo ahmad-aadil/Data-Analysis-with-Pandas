@@ -1,4 +1,4 @@
-Introduction to Pandas
+**Introduction to Pandas**
 Today, Python is considered as the most popular programming language for doing data science work. The reason behind this popularity is that Python provides great packages for doing data analysis and visualization work.
 
 Pandas is one of those packages that makes analysing data much easier. Pandas is an open source library for data analysis in Python. It was developed by Wes McKinney in 2008. Over the years, it has become the standard library for data analysis using Python.
@@ -9,7 +9,7 @@ According to the Wikipedia page on Pandas,
 
 In this project, I explore Pandas and various data analysis tools provided by Pandas.
 
-2. Key features of Pandas
+**Key features of Pandas**
 Some key features of Pandas are as follows:-
 
 It provides tools for reading and writing data from a wide variety of sources such as CSV files, excel files, databases such as SQL, JSON files.
@@ -32,8 +32,7 @@ It provides time series functionality – date range generation, frequency conve
 It integrates well with other Python libraries such as Scikit-learn, statsmodels and SciPy.
 
 It delivers fast performance. Also, it can be speeded up even more by making use of Cython (C extensions to Python).
-
-3. Advantages of Pandas
+**Advantages of Pandas**
 Pandas is a core component of the Python data analysis toolkit. Pandas provides data structure and operations facilities, which is particularly useful for data analysis. There are various advantages of using Pandas for data analysis.
 
 These advantages are as follows:-
@@ -45,7 +44,7 @@ It provides for easy subsetting and filtering of data. It provides procedures th
 
 It provides functionality to write clear and concise code. It allows us to focus on the task at hand, rather than have to write tedious code.
 
-4. Importing Pandas
+**Importing Pandas**
 In order to use Pandas in our work, we need to import the Pandas library first. We can import the Pandas library with the following command:-
 
 import pandas
@@ -63,7 +62,7 @@ import numpy as np
 import pandas as pd
 
 import numpy as np
-5. Data structures in Pandas
+**Data structures in Pandas**
 Pandas provide easy to use data structures.
 
 There are three main data structures in Pandas. They are:-
@@ -76,7 +75,7 @@ Panel
 
 These data structures are built on top of Numpy array, which means they are fast. I have described these data structures in the following sections.
 
-6. Pandas Series
+**Pandas Series**
 A Pandas Series is a one-dimensional array like structure with homogeneous data.
 
 The data can be of any type (integer, string, float, etc.). The axis labels are collectively called index.
@@ -104,8 +103,7 @@ index- index values must be unique, hashable and have the same length as data. T
 dtype - dtype is for data type. If none, data type will be inferred.
 
 copy - Copy input data. Default value is False.
-
-7. Pandas DataFrame
+**Pandas DataFrame**
 A Dataframe is a two-dimensional data structure. So, data is aligned in a tabular fashion in rows and columns. Its column types can be heterogeneous: - that is, of varying types. It is similar to structured arrays in NumPy with mutability added.
 
 Properties of Dataframe are as follows:-
